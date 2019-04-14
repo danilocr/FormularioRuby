@@ -1,0 +1,21 @@
+<h1>Visión general de las tablas</h1>
+
+<table>
+  <tr>
+    <th>Nombre</th>
+    <th>Apellido</th>
+    <th>Año</th>
+    <th>Direccion</th>
+    <th>Comentario</th>
+  </tr>
+
+  <% @users.each do |user| %>
+    <tr>
+      <td><%= user.nom %></td>
+      <td><%= user.ape %></td>
+      <td><%= user.an %></td>
+      <td><%= user.dir %></td>
+      <td><%= user.comen %></td>
+    </tr>
+  <% end %>
+</table>

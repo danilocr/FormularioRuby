@@ -1,0 +1,12 @@
+<h1>Formulario básico</h1>
+<%= form_for :user, :url => { :action => :create } do |f| %>
+  
+  Nombre<%= f.text_field :nom %><br>
+  Apellido<%= f.text_field :ape %><br>
+  Año<%= f.text_field :an %><br>
+  Direccion<%= f.text_field :dir %><br>
+  Comentario<%= f.text_field :comen %><br>
+
+  <%= f.submit %>
+  
+<% end %>

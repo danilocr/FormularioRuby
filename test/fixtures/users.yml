@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nom: MyString
+  ape: MyString
+  an: 1
+  dir: MyString
+  comen: MyString
+
+two:
+  nom: MyString
+  ape: MyString
+  an: 1
+  dir: MyString
+  comen: MyString
